@@ -14,13 +14,18 @@
     display: flex;
     justify-content: space-between;
     height: 50px;
-    background-color: rgb(92, 92, 92);
+    background-color: #F4F5F7;
     border-bottom: 2px solid red;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
 }
 
 .logo-container {
-    background-color: beige;
-    font-size: 30px;
+    background-color: rgb(153, 153, 71);
+    font-size: 20px;
     font-weight: bold;
     padding: 5px 10px;
     margin-right: 10px;
@@ -28,4 +33,12 @@
 
 .flex-container {
     display: flex;
-}   
+    align-items: center;
+}
+
+.welcome-text,.title-link,.login-button {
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 0px 0px;
+    color: #0626dab0;
+}
