@@ -3,6 +3,9 @@
     margin: 0px;
     font-family: sans-serif;
 }
+*:focus {
+    outline: none;
+}
 
 .main-container {
     width: 100%;
@@ -15,16 +18,21 @@
     justify-content: space-between;
     height: 50px;
     background-color: #F4F5F7;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #ff0000;
     align-items: center;
+    width: 100%;
+}
+
+.content-container {
+    width:100%;
+    display: flex;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%
+    overflow: scroll;
+    height: 80%;
 }
 
 .logo-container {
-    background-color: rgb(153, 153, 71);
+    background-color: #999947;
     font-size: 20px;
     font-weight: bold;
     padding: 5px 10px;
@@ -41,4 +49,22 @@
     padding: 5px 10px;
     margin: 0px 0px;
     color: #0626dab0;
+}
+
+.simple-button {
+    padding: 8px 15px;
+    background-color:#5869ff;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.simple-button:hover {
+    background-color:#0919fa;
+}
+
+.link-button {
+    text-decoration: none;
 }
