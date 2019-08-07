@@ -63,24 +63,22 @@
 }
 
 .body-container {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    
-    align-content: center;
-    
+    border:1px solid yellow;
+    width: 900px;
+    margin: auto;
+    background-color: #fff;
 }
 
 .menubar-item {
     height: 80px;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
     color: #6e48f5;
     padding: 5px 10px;
     margin-left: 5px;
     justify-content: center;
     border-left: 1px solid #808080;
+    align-items: center;
 }
 .menubar-item:hover {
     color: #fff;
