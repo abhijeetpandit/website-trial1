@@ -96,3 +96,32 @@
     justify-content: flex-start;
     align-items: center;
 }
+td {
+    padding: 5px 5px;
+}
+
+.form-text-input {
+    color: #6e48f5; 
+    font-size: 14px; 
+    padding: 8px 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+.simple-button {
+    padding: 8px 15px;
+    background-color:#5869ff;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.simple-button:hover {
+    background-color:#0919fa;
+}
+
+.link-button {
+    text-decoration: none;
+}
