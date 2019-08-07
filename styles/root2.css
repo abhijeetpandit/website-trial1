@@ -63,7 +63,6 @@
 }
 
 .body-container {
-    border:1px solid yellow;
     width: 900px;
     margin: auto;
     background-color: #fff;
@@ -83,4 +82,17 @@
 .menubar-item:hover {
     color: #fff;
     background-color: #6e48f5;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
