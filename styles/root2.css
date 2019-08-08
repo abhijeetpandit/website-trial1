@@ -79,6 +79,7 @@
     border-left: 1px solid #ccc;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
 }
 .menubar-item:hover {
     color: #fff;
